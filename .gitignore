@@ -1,0 +1,5 @@
+*.dll
+*.class
+*.idea
+*.lst
+*.DS_Store
