@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+    <test name="Testing1">
+        <parameter name="userName" value="standard_user"></parameter>
+        <parameter name="password" value="secret_sauce"></parameter>
+        <parameter name="filter" value="Price (low to high)"></parameter>
+        <parameter name="item" value="Sauce Labs Backpack"></parameter>
+        <classes>
+            <class name="suites.login.Login">
+            </class>
+        </classes>
+    </test>
+
+
+        <test name="Testing2">
+            <classes>
+                <class name="APIs.PetAPIs">
+                </class>
+            </classes>
+        </test>
+
+
+</suite>
